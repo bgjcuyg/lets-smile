@@ -1,0 +1,59 @@
+body{
+    margin:0;
+   
+    background-image: url("https://darrylspeaks.com/wp-content/uploads/2022/06/Blog-Graphics-4-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    
+    justify-content:left;
+    
+    align-items: left;
+    font-family: monospace;
+}
+.container {
+    background-color: rgba(255,255,255,0.3);
+    padding:20px;
+    margin: 45px 10px;
+    box-shadow:0 6px 10px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    text-align: center;
+   color: black;
+}
+.inside{
+    margin-top: 10rem;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.3);
+    letter-spacing: 3px ;
+}
+.joke{
+    font-size: 25px;
+    font-weight: 500px;
+    margin:40px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+    background-color:rgba(255,255,255,0.3) ;
+    border-color: rgba(255,255,255,0.6);  /*rgba(255,255,255) is white and 0.3 is for transparencey */
+    text-transform:uppercase;
+    /* color:rgb(0, 139, 37) ; */
+    color: black;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0,4px,4px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+}
